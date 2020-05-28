@@ -3,12 +3,7 @@ import numpy as np
 import math
 from scipy.stats import chi2
 
-#    /========\    |\          /| |====\  ===|===
-#   /          \   | \        / | |     \    |
-#  /            \  |  \      /  | |     /    |
-#  \            /  |   \    /   | |====/     |
-#   \          /   |    \  /    | |    \     |
-#    \========/    |     \/     | |     \ ===|===
+
 
 """ This script build a decision tree from scratch by recursive functions and data frames from pandas,
  it is take a few seconds to build tree so please be patient """
