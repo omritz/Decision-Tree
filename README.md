@@ -20,12 +20,12 @@ the more meaningful attributes, and χ2 test to prune vertices.
 
 ### There are three importent functions: ###
 
-- buildTree(<float> k) k∈ [0, 1]- build a decision tree, using k ratio of
+- buildTree(<float>k) k∈ [0, 1]- build a decision tree, using k ratio of
 the data (so if k = 0.6,  arbitrarily choose 60% of the data), and validate it
 on the remainder. The outcome is printing out the decision tree, and reporting
 the error.
   
-- treeError(<int> k) - report the quality of the decision tree by building
+- treeError(<int>k) - report the quality of the decision tree by building
 k-cross validation, and reporting the error.
   
 - isThisViral(<array>) - receive an an input from the user of the article they
@@ -33,4 +33,4 @@ are considering. assume it is in the same order as the data file (but
 without the bit saying how many shares it got, of course). You return 1 if you
 think it will go viral, and 0 if not.
 
-**Try Yourself**
+**Try Yourself!**
